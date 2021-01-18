@@ -1,0 +1,18 @@
+<div class="col-sm-1 message-card">
+  <div *ngIf="messageService.messages.length">
+    <h2>Messages</h2>
+    <button class="clear" (click)="messageService.clear()">clear</button>
+    <div
+      class="selected-hero"
+      *ngFor="let message of messageService.messages; let i = index"
+    >
+      <span
+        class="close"
+        *ngIf="message.includes('HeroesComponent: Selected hero id')"
+        (click)="closeCard(i)"
+        ><i class="fas fa-times"></i
+      ></span>
+      {{ message }}
+    </div>
+  </div>
+</div>

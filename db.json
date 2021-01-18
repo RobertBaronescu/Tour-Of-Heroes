@@ -1,0 +1,113 @@
+{
+  "heroes": [
+    {
+      "id": 11,
+      "name": "Dr Nice",
+      "powerStats": {
+        "combat": 8,
+        "speed": 8,
+        "intelligence": 10,
+        "strength": 4,
+        "overallRating": 30
+      }
+    },
+    {
+      "id": 12,
+      "name": "Narco",
+      "powerStats": {
+        "combat": 9,
+        "speed": 499,
+        "intelligence": 5,
+        "strength": 5,
+        "overallRating": 518
+      }
+    },
+    {
+      "id": 13,
+      "name": "Bombasto",
+      "powerStats": {
+        "combat": 8,
+        "speed": 9,
+        "intelligence": 8,
+        "strength": 10,
+        "overallRating": 35
+      }
+    },
+    {
+      "id": 14,
+      "name": "Celeritas",
+      "powerStats": {
+        "combat": 6,
+        "speed": 9,
+        "intelligence": 9,
+        "strength": 8,
+        "overallRating": 32
+      }
+    },
+    {
+      "id": 15,
+      "name": "Magneta",
+      "powerStats": {
+        "combat": 1,
+        "speed": 10,
+        "intelligence": 2,
+        "strength": 8,
+        "overallRating": 21
+      }
+    },
+    {
+      "id": 16,
+      "name": "RubberMan",
+      "powerStats": {
+        "combat": 9,
+        "speed": 5,
+        "intelligence": 8,
+        "strength": 10,
+        "overallRating": 32
+      }
+    },
+    {
+      "id": 17,
+      "name": "Dynama",
+      "powerStats": {
+        "combat": 5,
+        "speed": 78,
+        "intelligence": 8,
+        "strength": 9,
+        "overallRating": 100
+      }
+    },
+    {
+      "id": 18,
+      "name": "Dr IQ",
+      "powerStats": {
+        "combat": 89,
+        "speed": 18,
+        "intelligence": 23,
+        "strength": 56,
+        "overallRating": 186
+      }
+    },
+    {
+      "id": 19,
+      "name": "Magma",
+      "powerStats": {
+        "combat": 5,
+        "speed": 9,
+        "intelligence": 8,
+        "strength": 11,
+        "overallRating": 33
+      }
+    },
+    {
+      "id": 20,
+      "name": "Tornado",
+      "powerStats": {
+        "combat": 5,
+        "speed": 9,
+        "intelligence": 9,
+        "strength": 5
+      }
+    }
+  ]
+}

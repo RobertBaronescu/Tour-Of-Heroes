@@ -1,0 +1,31 @@
+.low-rating {
+  border: 2px solid;
+  background-color: #ff3f34;
+  padding: 5px;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.medium-rating {
+  border: 2px solid;
+  background-color: #ffd32a;
+  padding: 5px;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.high-rating {
+  border: 2px solid;
+  background-color: #05c46b;
+  padding: 5px;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.powerful-rating {
+  border: 2px solid;
+  background-color: #3c40c6;
+  padding: 5px;
+  border-radius: 50%;
+  color: #fff;
+}

@@ -1,0 +1,8 @@
+<div>
+  <span>Overall Rating: </span>
+
+  <span [ngClass]="overallRatingService.calculateRatingColor(rating)">{{
+    rating
+  }}</span>
+ 
+</div>

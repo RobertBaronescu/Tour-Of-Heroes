@@ -1,0 +1,10 @@
+.mt-1 {
+  margin-top: 3.2rem !important;
+}
+.heroes-title {
+  display: flex;
+  justify-content: center;
+}
+app-messages {
+  color: rgb(214, 16, 16);
+}
