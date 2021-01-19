@@ -1,8 +1,10 @@
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { BehaviorSubject } from 'rxjs';
 import { debounceTime, distinctUntilChanged } from 'rxjs/operators';
 import { HeroSort } from './enums/hero-sort.enum';
 import { Hero } from './hero';
+import { HeroOverallRatingComponent } from './hero-overall-rating/hero-overall-rating.component';
 import { HeroService } from './hero.service';
 
 @Injectable({
@@ -18,6 +20,7 @@ export class OverallRatingService {
   };
 
   newHero: Hero;
+
 
   calculateOverallRating(hero: Hero): number {
     const { combat, speed, intelligence, strength } = hero.powerStats;
@@ -83,13 +86,15 @@ export class OverallRatingService {
     this.newHero = heroes.find((hero) => hero.id === heroId);
 
     const heroIndex = heroes.findIndex((hero) => hero.id === heroId);
-    
+
     const sortedHeroIndex = sortedHeroes.findIndex(
       (hero) => hero.id === heroId
     );
 
     this.unsortedListWarning = heroIndex !== sortedHeroIndex;
   }
+
+
 
   constructor(private heroService: HeroService, private http: HttpClient) {}
 }

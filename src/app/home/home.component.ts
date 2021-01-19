@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { OverallRatingService } from '../overall-rating.service';
 
 @Component({
   selector: 'app-home',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
   title = 'Tour of Heroes';
-  constructor() {}
+  constructor(public overallRatingService: OverallRatingService) {}
 
   ngOnInit(): void {}
 }

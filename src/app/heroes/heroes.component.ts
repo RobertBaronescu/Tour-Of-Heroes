@@ -35,7 +35,12 @@ export class HeroesComponent implements OnInit {
   getHeroes(): void {
     this.heroService
       .getAllHeroes()
-      .pipe(tap((heroes: Hero[]) => this.heroService.heroes$.next(heroes)))
+      .pipe(
+        tap((heroes: Hero[]) => {
+          this.heroService.heroes$.next(heroes);
+          this.heroService.sortStrongestHeroes();
+        })
+      )
       .subscribe();
   }
 

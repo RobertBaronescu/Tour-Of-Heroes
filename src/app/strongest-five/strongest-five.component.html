@@ -1,0 +1,8 @@
+<div>
+  <h1>Strongest Heroes</h1>
+  <ul *ngFor="let hero of strongestHeroes">
+    <li class="strongest-hero">
+      {{ hero.name }} -- {{ hero.powerStats.overallRating }}
+    </li>
+  </ul>
+</div>

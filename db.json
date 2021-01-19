@@ -4,11 +4,11 @@
       "id": 11,
       "name": "Dr Nice",
       "powerStats": {
-        "combat": 8,
-        "speed": 8,
+        "combat": 19,
+        "speed": 9,
         "intelligence": 10,
         "strength": 4,
-        "overallRating": 30
+        "overallRating": 42
       }
     },
     {
@@ -16,10 +16,10 @@
       "name": "Narco",
       "powerStats": {
         "combat": 9,
-        "speed": 499,
+        "speed": 4990,
         "intelligence": 5,
         "strength": 5,
-        "overallRating": 518
+        "overallRating": 5009
       }
     },
     {
@@ -27,10 +27,10 @@
       "name": "Bombasto",
       "powerStats": {
         "combat": 8,
-        "speed": 9,
-        "intelligence": 8,
+        "speed": 900,
+        "intelligence": 80,
         "strength": 10,
-        "overallRating": 35
+        "overallRating": 998
       }
     },
     {
@@ -38,32 +38,32 @@
       "name": "Celeritas",
       "powerStats": {
         "combat": 6,
-        "speed": 9,
-        "intelligence": 9,
+        "speed": 18,
+        "intelligence": 90,
         "strength": 8,
-        "overallRating": 32
+        "overallRating": 122
       }
     },
     {
       "id": 15,
       "name": "Magneta",
       "powerStats": {
-        "combat": 1,
+        "combat": 100,
         "speed": 10,
         "intelligence": 2,
         "strength": 8,
-        "overallRating": 21
+        "overallRating": 120
       }
     },
     {
       "id": 16,
       "name": "RubberMan",
       "powerStats": {
-        "combat": 9,
+        "combat": 1,
         "speed": 5,
         "intelligence": 8,
         "strength": 10,
-        "overallRating": 32
+        "overallRating": 24
       }
     },
     {
@@ -71,10 +71,10 @@
       "name": "Dynama",
       "powerStats": {
         "combat": 5,
-        "speed": 78,
+        "speed": 7,
         "intelligence": 8,
         "strength": 9,
-        "overallRating": 100
+        "overallRating": 29
       }
     },
     {
@@ -83,30 +83,31 @@
       "powerStats": {
         "combat": 89,
         "speed": 18,
-        "intelligence": 23,
+        "intelligence": 28,
         "strength": 56,
-        "overallRating": 186
+        "overallRating": 191
       }
     },
     {
       "id": 19,
       "name": "Magma",
       "powerStats": {
-        "combat": 5,
-        "speed": 9,
+        "combat": 80,
+        "speed": 22,
         "intelligence": 8,
         "strength": 11,
-        "overallRating": 33
+        "overallRating": 121
       }
     },
     {
       "id": 20,
       "name": "Tornado",
       "powerStats": {
-        "combat": 5,
-        "speed": 9,
-        "intelligence": 9,
-        "strength": 5
+        "combat": 8,
+        "speed": 90,
+        "intelligence": 90,
+        "strength": 50,
+        "overallRating": 238
       }
     }
   ]

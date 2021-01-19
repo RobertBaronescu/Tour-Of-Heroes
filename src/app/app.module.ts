@@ -12,6 +12,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { FirstFiveComponent } from './first-five/first-five.component';
 import { HomeComponent } from './home/home.component';
 import { HttpClientModule } from '@angular/common/http';
+import { StrongestFiveComponent } from './strongest-five/strongest-five.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { HttpClientModule } from '@angular/common/http';
     SingleHeroComponent,
     FirstFiveComponent,
     HomeComponent,
+    StrongestFiveComponent,
   ],
   imports: [BrowserModule, FormsModule, CommonModule, AppRoutingModule, HttpClientModule],
   providers: [],

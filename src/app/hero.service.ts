@@ -25,6 +25,8 @@ export class HeroService {
     }),
   };
 
+  strongestHeroes$ = new BehaviorSubject<Hero[]>([]);
+
   constructor(
     private messageService: MessageService,
     private http: HttpClient
@@ -48,5 +50,20 @@ export class HeroService {
       hero,
       this.httpOptions
     );
+  }
+
+  sortStrongestHeroes(): void {
+    const allHeroes = this.heroes$.getValue();
+    const strongestFive = [...allHeroes]
+      .sort((a, b) =>
+        a.powerStats.overallRating > b.powerStats.overallRating
+          ? 1
+          : b.powerStats.overallRating > a.powerStats.overallRating
+          ? -1
+          : 0
+      )
+      .reverse()
+      .slice(0, 5);
+    this.strongestHeroes$.next(strongestFive);
   }
 }

@@ -44,13 +44,14 @@ export class HeroDetailComponent implements OnInit, AfterViewInit, OnDestroy {
         .pipe(
           debounceTime(500),
           distinctUntilChanged(),
-          tap(() => {
-            this.overallRatingService.verifyAfterInput(this.hero.id);
-          }),
+          tap(() => this.overallRatingService.verifyAfterInput(this.hero.id)),
           switchMap(() => {
             return this.heroService.updateHero(
               this.overallRatingService.newHero
             );
+          }),
+          tap(() => {
+            this.heroService.sortStrongestHeroes();
           }),
           untilDestroyed(this)
         )
